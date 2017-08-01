@@ -1,0 +1,85 @@
+body {
+  background-image: url("../images/maplestory_background.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  font-size: 35px;
+  width: 300px;
+  background-color: rgba(0,255,0,0.3);
+  border: 20px solid green;
+  padding: 25px;
+  margin: auto;
+}
+
+;
+div {
+  width: 320px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+
+#rules {
+  text-align: center;
+  display: block;
+  float: left;
+  width: 495px;
+  height: 267px;
+  background-color: rgba(255,0,255,0.3);
+  border: 5px solid purple;
+  margin: 20px;
+  line-height: 120%;
+  font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#ores {
+  display: block;
+  float: right;
+  width: 495px;
+  height: 200px;
+  margin: 20px;
+  size: 200%;
+}
+
+#gemcount {
+  display: block;
+  text-align: center;
+  float: right;
+  width: 200px;
+  height: 40px;
+  background-color:rgba(255,255,0,0.3);
+  border: 5px solid yellow;
+  margin: 20px;
+}
+#winlose {
+  display: block;
+  text-align: center;
+  float: right;
+  width: 200px;
+  height: 80px; 
+  background-color:rgba(0,0,255,0.3);
+  border: 5px solid blue;  
+  margin: 20px;
+}
+
+#counts {
+  display: block;
+  text-align: center;
+  float: right;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(255,0,0,0.3);
+  border: 5px solid red;
+  margin: 20px;
+}
+

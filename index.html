@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Crystal </title>
+
+  <link rel="stylesheet" type='text/css' href="assets/css/reset.css">
+  <link rel="stylesheet" type='text/css' href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js">
+  
+  </script>
+</head>
+
+<header>  Maple OreCollector 
+</header>
+
+<body>
+
+  <div id="rules">
+    <p> A random number is generated at the start of the game. There are four gems on the right (bronze/gold/mithril/silver). </p>
+    <p> By clicking on the gems, you get a specific amount of points (displayed on the counter). </p>
+    <p> You must match the points (counter) to the random number to win. You will lose if your points (counter) is higher than the random number. </p>
+    <p> Gems will not show you the value until you click on them.  </p>
+    <p> The game will restart with new numbers after one wins or loses. </p>
+    <p>(Bonus: Win 3x for surprise) </p>
+  </div>
+  <div id="ores">
+    <img id="bronze" src="assets\images\MS_Item_Bronze_Ore.jpg" width="100" height="100"/>
+    <img id="gold" src="assets\images\MS_Item_Gold_Ore.jpg" width="100" height="100"/>
+    <img id="mithril" src="assets\images\MS_Item_Mithril_Ore.jpg" width="100" height="100"/>
+    <img id="silver" src="assets\images\MS_Item_Silver_Ore.jpg" width="100" height="100"/>
+  </div>
+
+  <div id="gemcount">
+    <p>Random Number: <span id="gem">0</span></p>
+  </div>
+
+  <div id="winlose">
+    <p>Wins: <span id="wins">0</span></p>
+    <p>Loses: <span id="loses">0</span></p>
+  </div>
+  <div id="counts">
+    <p>Counter: <span id="counter">0</span></p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js">
+
+
+</body>
+
+</html>
